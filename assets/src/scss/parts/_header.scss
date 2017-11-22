@@ -1,0 +1,25 @@
+
+.header {
+  background: url("../../img/layer-4.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 155px;
+  &__row {
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+}
+.header__h1 {
+  text-align: center;
+}
+.header__menu--lefr {
+  text-align: right;
+}
+.header__title {
+  @include for-title;
+}
+.header__description {
+  @include  for-description;
+  list-style: none;
+}
+

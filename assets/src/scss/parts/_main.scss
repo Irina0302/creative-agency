@@ -1,0 +1,26 @@
+
+.main__section {
+  margin-bottom: 150px;
+}
+
+.main__title {
+  @include for-title;
+  font-family: Montserrat;
+
+}
+
+
+
+.main__subtitle {
+  @include for-description;
+  font-family: Montserrat;
+
+}
+
+.main__description {
+  @include simple-text;
+  font-family: Montserrat;
+}
+.main__title::before{
+  @include green-before;
+}

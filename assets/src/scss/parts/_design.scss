@@ -1,0 +1,31 @@
+.design {
+  text-align: center;
+  margin-bottom: 150px;
+  &__info-img {
+    margin-bottom: 30px;
+  }
+  &__description {
+    margin-bottom: 15px;
+    @include desing-description;
+  }
+
+}
+.desing-img {
+  margin: 30px 15px 30px;
+  margin-bottom: 10px;
+}
+.d-block {
+  text-align: center;
+}
+.carousel-indicators {
+  margin-bottom: -32px;
+  color: #7beec7;
+  width: 11%;
+}
+.btn-jon {
+  background-color: #7beec7;
+  border-color: #7beec7;
+}
+.w-25 {
+  margin-right: 0;
+}

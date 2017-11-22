@@ -1,0 +1,31 @@
+.benefits {
+  margin-bottom: 152px;
+  &__title {
+    text-align: center;
+    @include for-title;
+    font-family: $fond-new;
+  }
+  &__subtitle {
+    text-align: center;
+    @include simple-text;
+    font-family: $fond-new;
+    margin-bottom: 100px;
+  }
+  &__options--title {
+    @include benefits-h3;
+
+  }
+  &__options--description {
+    text-align: left;
+    @include simple-text;
+  }
+}
+.benefits__title::before{
+  @include green-before;
+}
+.cat {
+  @include for-fa-benefits;
+  margin-right: 20px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+}

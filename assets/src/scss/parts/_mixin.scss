@@ -1,0 +1,88 @@
+@mixin for-title {
+  color: #60606e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+@mixin for-description  {
+  color: #60606e;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+@mixin simple-text {
+  color: #60606e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin benefits-h3 {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+@mixin for-section-btn {
+  height: 151px;
+  color: #60606e;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: italic;
+  line-height: 48px;
+}
+@mixin text-in-btn {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+@mixin desing-description {
+  color: #60606e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin footer-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+@mixin footer-title-white {
+  color: #60606e;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+@mixin for-fa-benefits {
+  width: 40px;
+  height: 40px;
+  background-color: #7beec7;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+@mixin green-before{
+  content: '';
+  display: inline-block;
+  z-index: -5;
+  background-color: #19bd9a;
+  opacity: 0.6;
+  height:21px;
+  width: 68px;
+  margin-top: 20px;
+  padding-left: 40px;
+  position: absolute;
+}
